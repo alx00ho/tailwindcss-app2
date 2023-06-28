@@ -1,0 +1,23 @@
+{
+  "name": "tailwindcss-app2",
+  "version": "1.0.0",
+  "description": "Tailwind tutorial from Travery Media",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alx00ho/tailwindcss-app2.git"
+  },
+  "author": "Alexander Ho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alx00ho/tailwindcss-app2/issues"
+  },
+  "homepage": "https://github.com/alx00ho/tailwindcss-app2#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
